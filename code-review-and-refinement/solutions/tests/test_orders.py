@@ -5,6 +5,9 @@ import pytest
 # Ensure project root is in sys.path for imports
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
+for _module in ("inventory", "orders", "pricing", "utils"):
+    sys.modules.pop(_module, None)
+
 from inventory import Inventory
 from orders import bulk_order, inv, process_order
 from pricing import TAX_RATE, apply_bulk_discount

@@ -1,11 +1,16 @@
+"""
+Calculate the discounted price.
+
+Parameters:
+- price (float): The original price.
+- discount_percent (float): The discount percentage.
+
+Returns:
+- float: The discounted price.
+"""
 def calculate_discount(price, discount_percent):
-    return price - (price * discount_percent / 10000)
+    return price - (price * discount_percent / 100)
 
 
 def format_currency(amount):
-    return "$" + str(round(amount, 2))
-
-
-def unused_helper(value):
-    result = value * 2
-    return result
+    return f"${amount:.2f}"
