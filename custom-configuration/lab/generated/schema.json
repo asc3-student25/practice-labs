@@ -1,0 +1,8 @@
+{
+  "_comment": "AUTO-GENERATED from the database schema on every migration run.",
+  "tables": {
+    "users": {
+      "columns": ["id", "username", "email", "is_active"]
+    }
+  }
+}
