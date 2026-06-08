@@ -1,0 +1,26 @@
+{
+  "servers": {
+    // "log-tools": {
+    //   "type": "stdio",
+    //   "command": "python",
+    //   "args": ["-m", "log_tools.server"],
+    //   "cwd": "C:\\LabFiles\\AIC-1102\\LabFiles\\mcp-tool-design\\lab",
+    //   "env": {
+    //     "LOG_DIR": "C:\\LabFiles\\AIC-1102\\LabFiles\\mcp-tool-design\\lab\\sample_logs"
+    //   }
+    // },
+    "log-tools-readonly": {
+      "type": "stdio",
+      "command": "python",
+      "args": ["-m", "readonly_tools.server"],
+      "cwd": "C:\\LabFiles\\AIC-1102\\LabFiles\\mcp-tool-design\\lab",
+      "env": {
+        "LOG_DIR": "C:\\LabFiles\\AIC-1102\\LabFiles\\mcp-tool-design\\lab\\sample_logs"
+      }
+    },
+    "github": {
+      "type": "http",
+      "url": "https://api.githubcopilot.com/mcp/"
+    }
+  }
+}

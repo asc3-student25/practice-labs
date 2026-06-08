@@ -1,0 +1,34 @@
+2026-01-15T10:00:00Z INFO Starting application
+2026-01-15T10:00:01Z DEBUG Loaded config from ./config.yaml
+2026-01-15T10:00:02Z INFO Server listening on port 5000
+2026-01-15T10:00:15Z WARNING Slow database query (5.2s) on table users
+2026-01-15T10:01:03Z ERROR Failed to connect to redis: connection refused
+2026-01-15T10:01:04Z ERROR Retrying redis connection (attempt 1/5)
+2026-01-15T10:01:08Z INFO Redis connection restored
+2026-01-15T10:05:23Z WARNING Rate limit exceeded for user u42
+2026-01-15T10:10:00Z INFO Background job started: cleanup_stale_sessions
+2026-01-15T10:10:15Z ERROR Cleanup job failed: permission denied on /tmp/sessions/
+2026-01-15T10:12:01Z DEBUG Processing request GET /api/tickets
+2026-01-15T10:12:01Z INFO Request GET /api/tickets returned 200 in 42ms
+2026-01-15T10:15:44Z WARNING Disk usage at 82% on /var/log
+2026-01-15T10:20:10Z DEBUG Processing request POST /api/tickets
+2026-01-15T10:20:10Z INFO Request POST /api/tickets returned 201 in 61ms
+2026-01-15T10:25:00Z INFO Background job started: export_daily_metrics
+2026-01-15T10:25:30Z INFO Background job finished: export_daily_metrics in 30s
+2026-01-15T10:30:00Z ERROR Database connection timeout after 10s
+2026-01-15T10:30:05Z ERROR Database connection timeout after 10s
+2026-01-15T10:30:10Z ERROR Database connection timeout after 10s
+2026-01-15T10:30:15Z INFO Database connection restored
+2026-01-15T10:35:22Z WARNING Slow database query (3.1s) on table tickets
+2026-01-15T10:40:00Z INFO Background job started: cleanup_stale_sessions
+2026-01-15T10:40:02Z INFO Background job finished: cleanup_stale_sessions in 2s
+2026-01-15T10:45:11Z DEBUG Cache hit for user u42
+2026-01-15T10:50:03Z WARNING Rate limit exceeded for user u42
+2026-01-15T10:55:00Z ERROR Unhandled exception in request handler: ValueError
+2026-01-15T10:55:01Z INFO Request POST /api/tickets returned 500 in 102ms
+2026-01-15T11:00:00Z INFO Health check passed
+2026-01-15T11:05:15Z DEBUG Processing request GET /api/tickets/42
+2026-01-15T11:05:15Z INFO Request GET /api/tickets/42 returned 404 in 8ms
+2026-01-15T11:10:00Z WARNING Slow database query (2.8s) on table tickets
+2026-01-15T11:15:00Z INFO Graceful shutdown initiated
+2026-01-15T11:15:02Z INFO Application stopped
