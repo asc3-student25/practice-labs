@@ -1,0 +1,13 @@
+[project]
+name = "notification-dispatcher"
+version = "0.1.0"
+description = "A scaffolding lab target. See FEATURE_BRIEF.md."
+requires-python = ">=3.13"
+dependencies = [
+    "flask==3.1.3",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest==9.0.1",
+]

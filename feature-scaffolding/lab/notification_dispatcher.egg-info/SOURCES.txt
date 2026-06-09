@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+notification_dispatcher.egg-info/PKG-INFO
+notification_dispatcher.egg-info/SOURCES.txt
+notification_dispatcher.egg-info/dependency_links.txt
+notification_dispatcher.egg-info/requires.txt
+notification_dispatcher.egg-info/top_level.txt
