@@ -1,0 +1,18 @@
+[project]
+name = "interactive-streaming-agent"
+version = "1.0.0"
+description = "Interactive AI agent with streaming output"
+requires-python = ">=3.10"
+
+dependencies = [
+    "pydantic-ai>=1.77.0",
+    "pydantic>=2.0.0",
+    "python-dotenv>=1.0.1",
+    "openai>=2.30.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.23.0",
+]

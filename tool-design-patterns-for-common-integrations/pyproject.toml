@@ -1,0 +1,13 @@
+[project]
+name = "tool-design-patterns"
+version = "0.1.0"
+description = "Lab: Tool Design Patterns for Common Integrations"
+requires-python = ">=3.10"
+
+dependencies = [
+    "pydantic-ai>=1.77.0",
+    "pydantic>=2.10.5",
+    "python-dotenv>=1.0.1",
+    "openai>=2.30.0",
+    "httpx>=0.28.1",
+]
